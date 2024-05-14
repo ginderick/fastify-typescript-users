@@ -19,16 +19,22 @@ cd fastify-typescript-users
 
 ### Running Locally
 
-1. To start the development server, run:
+1. Install the dependencies:
 
 ```
-npm run start
+npm install
 ```
 
 2. To build the project, run:
 
 ```
 npm run build
+```
+
+3. Start the development server:
+
+```
+npm run start:dev
 ```
 
 ### Running Docker
@@ -46,4 +52,8 @@ docker build -t fastify-typescript-users .
 ```
 docker run -d -p 3000:3000 fastify-typescript-users
 ```
+
+## License
+
+This software is licensed under the [Apache 2 license](./LICENSE).
 
