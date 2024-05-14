@@ -50,7 +50,7 @@ docker build -t fastify-typescript-users .
 2. Run the Docker container:
 
 ```
-docker run -d -p 3000:3000 fastify-typescript-users
+docker run -d -p 3002:3002 fastify-typescript-users
 ```
 
 ## License
