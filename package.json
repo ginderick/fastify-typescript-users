@@ -11,14 +11,14 @@
   },
   "keywords": [],
   "author": "Gin Derick",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "fastify": "^4.27.0",
     "fastify-metrics": "^11.0.0",
     "prom-client": "^15.1.2"
   },
   "devDependencies": {
-    "@types/node": "^20.12.11",
+    "@types/node": "^20.12.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
